@@ -1,0 +1,356 @@
+TPersistence
+v7
+r0
+t291110095.336566
+cCheck dependencies
+cProcessInfoPlistFile /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Info.plist Info.plist
+cPhaseScriptExecution "Run Script" /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+cCompileXIB /Users/kevin/dev/appc/Persistence/build/iphone/Resources/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Persistence.app/Default.png Resources/Default.png
+cCopyPlistFile /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Entitlements.plist Resources/Entitlements.plist
+cProcessPCH /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Persistence_Prefix-dcrrlzefqhlyxpcnhqnbohebfhmg/Persistence_Prefix.pch.gch Persistence_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/main.o /Users/kevin/dev/appc/Persistence/build/iphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/ApplicationRouting.o /Users/kevin/dev/appc/Persistence/build/iphone/Classes/ApplicationRouting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence normal i386
+cGenerateDSYMFile /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app.dSYM /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence
+cTouch /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
+c000000004A9F670A00000000000000EE
+t1251960586
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004A76576C00000000000120D0
+t1249269612
+s73936
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004A765A9C000000000003E730
+t1249270428
+s255792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004A89EA5B00000000000D4BE0
+t1250552411
+s871392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A7650200000000000193960
+t1249267744
+s1653088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004A76502300000000001097C0
+t1249267747
+s1087424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A821911000000000026EE30
+t1250040081
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004A77B121000000000004AFE0
+t1249358113
+s307168
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A765094000000000027E880
+t1249267860
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7650820000000000001355
+t1249267842
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004A7CC3E6000000000010EB60
+t1249690598
+s1108832
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004A860FEA00000000000CB600
+t1250299882
+s833024
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004A7667960000000000069ED0
+t1249273750
+s433872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004A7651A70000000000018E90
+t1249268135
+s102032
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004A765556000000000001F8E0
+t1249269078
+s129248
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A764F5A0000000000055360
+t1249267546
+s349024
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E970000000000000788
+t1249668759
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6F5900000000016721E0
+t1249668953
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/lib/libicucore.dylib
+c000000004A764E6A00000000001CD2A0
+t1249267306
+s1888928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/lib/libsqlite3.dylib
+c000000004A764E6900000000000C4CF0
+t1249267305
+s806128
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/lib/libxml2.dylib
+c000000004A764F1F0000000000124950
+t1249267487
+s1198416
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/lib/libz.dylib
+c00000000476CCCD10000000000006EE8
+t1198312657
+s28392
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004ADE5FA10000000000CF0BE0
+t1256087457
+s13568992
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/Classes/ApplicationRouting.h
+c000000004BA9C52F000000000000014D
+t1269417263
+s333
+i<Foundation/Foundation.h>
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/Classes/ApplicationRouting.m
+c000000004BA9C52F0000000000000C9E
+t1269417263
+s3230
+i<Foundation/Foundation.h>
+i"ApplicationRouting.h"
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/Persistence_Prefix.pch
+c000000004BA9C0DC0000000000000086
+t1269416156
+s134
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/Resources/Default.png
+c000000004BA9C5370000000000004091
+t1269417271
+s16529
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/Resources/Entitlements.plist
+c000000004BA9C0DC00000000000000E1
+t1269416156
+s225
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/Resources/MainWindow.xib
+c000000004BA9C5370000000000003AF8
+t1269417271
+s15096
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/Resources/libTiCore.a
+c000000004BA9C537000000000C61F97C
+t1269417271
+s207747452
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/Resources/libTitanium.a
+c000000004BA9C52F0000000000E0BA18
+t1269417263
+s14727704
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app
+t1269417295
+s306
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app.dSYM
+t1269417295
+s102
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Default.png
+t1269417273
+s16529
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Entitlements.plist
+t1269417273
+s62
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Info.plist
+t1269417273
+s696
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/MainWindow.nib
+t1269417274
+s947
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence
+t1269417278
+s4136468
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/PkgInfo
+t1269417273
+s8
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/ApplicationRouting.o
+t1269417275
+s10060
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/Persistence.LinkFileList
+c000000004BA9C5380000000000000122
+t1269417272
+s290
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/main.o
+t1269417275
+s11436
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+c000000004BA9C53800000000000001B8
+t1269417272
+s440
+
+N/Users/kevin/dev/appc/Persistence/build/iphone/main.m
+c000000004BA9C52F0000000000000636
+t1269417263
+s1590
+i<UIKit/UIKit.h>
+
+N/var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Persistence_Prefix-dcrrlzefqhlyxpcnhqnbohebfhmg/Persistence_Prefix.pch.gch
+t1269417275
+s13018576
+
+NInfo.plist
+c000000004BA9C53700000000000003D8
+t1269417271
+s984
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies291110071#291110072#0(0"0(0#1#0"5211871307329004544#0"0#
+
+CCompileC build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/ApplicationRouting.o /Users/kevin/dev/appc/Persistence/build/iphone/Classes/ApplicationRouting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291110075.399651
+e291110075.451314
+r1
+xCompileC
+xbuild/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/ApplicationRouting.o
+x/Users/kevin/dev/appc/Persistence/build/iphone/Classes/ApplicationRouting.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/kevin/dev/appc/Persistence/build/iphone/Classes/ApplicationRouting.m291110075#291110075#0(0"0(0#0#75"/Users/kevin/dev/appc/Persistence/build/iphone/Classes/ApplicationRouting.m4301231320#2147"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__LOG__ID__=ef78a2da-817a-47ba-8b32-3a21a3745224 -DDEPLOYTYPE=development -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-generated-files.hmap -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-own-target-headers.hmap -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-all-target-headers.hmap -iquote /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-project-headers.hmap -F/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/include -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/DerivedSources/i386 -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/DerivedSources -include /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Persistence_Prefix-dcrrlzefqhlyxpcnhqnbohebfhmg/Persistence_Prefix.pch -c /Users/kevin/dev/appc/Persistence/build/iphone/Classes/ApplicationRouting.m -o /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/ApplicationRouting.o0#
+
+CCompileC build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/main.o /Users/kevin/dev/appc/Persistence/build/iphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291110075.398834
+e291110075.506722
+r1
+xCompileC
+xbuild/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/main.o
+x/Users/kevin/dev/appc/Persistence/build/iphone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/kevin/dev/appc/Persistence/build/iphone/main.m291110075#291110075#0(0"0(0#0#53"/Users/kevin/dev/appc/Persistence/build/iphone/main.m4301231320#2111"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__LOG__ID__=ef78a2da-817a-47ba-8b32-3a21a3745224 -DDEPLOYTYPE=development -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-generated-files.hmap -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-own-target-headers.hmap -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-all-target-headers.hmap -iquote /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-project-headers.hmap -F/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/include -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/DerivedSources/i386 -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/DerivedSources -include /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Persistence_Prefix-dcrrlzefqhlyxpcnhqnbohebfhmg/Persistence_Prefix.pch -c /Users/kevin/dev/appc/Persistence/build/iphone/main.m -o /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/kevin/dev/appc/Persistence/build/iphone/Resources/MainWindow.xib
+s291110073.062402
+e291110074.724225
+r1
+xCompileXIB
+x/Users/kevin/dev/appc/Persistence/build/iphone/Resources/MainWindow.xib
+lSLF07#2@35"CompileXIB Resources/MainWindow.xib291110073#291110074#0(0"0(0#0#71"/Users/kevin/dev/appc/Persistence/build/iphone/Resources/MainWindow.xib4301231320#518"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/MainWindow.nib /Users/kevin/dev/appc/Persistence/build/iphone/Resources/MainWindow.xib0#
+
+CCopyPlistFile /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Entitlements.plist Resources/Entitlements.plist
+s291110073.063991
+e291110073.281190
+r1
+xCopyPlistFile
+x/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Entitlements.plist
+xResources/Entitlements.plist
+lSLF07#2@33"Copy Resources/Entitlements.plist291110073#291110073#0(0"0(0#0#75"/Users/kevin/dev/appc/Persistence/build/iphone/Resources/Entitlements.plist4301231320#423"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/Entitlements.plist --outdir /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app0#
+
+CCpResource build/Debug-iphonesimulator/Persistence.app/Default.png Resources/Default.png
+s291110073.062962
+e291110073.068849
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Persistence.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png291110073#291110073#0(0"0(0#0#68"/Users/kevin/dev/appc/Persistence/build/iphone/Resources/Default.png4301231320#493"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/kevin/dev/appc/Persistence/build/iphone/Resources/Default.png /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app0#
+
+CGenerateDSYMFile /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app.dSYM /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence
+s291110078.676665
+e291110095.300037
+r1
+xGenerateDSYMFile
+x/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app.dSYM
+x/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/Persistence.app.dSYM build/Debug-iphonesimulator/Persistence.app/Persistence291110078#291110095#0(0"0(0#0#102"/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence4301231320#419"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence -o /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app.dSYM0#
+
+CLd /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence normal i386
+s291110075.506823
+e291110078.676355
+r1
+xLd
+x/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence
+xnormal
+xi386
+lSLF07#2@107"Link /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence291110075#291110078#0(0"0(0#0#0"4301231320#1394"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator -L/Users/kevin/dev/appc/Persistence/build/iphone -LResources -F/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator -filelist /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/Persistence.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -ObjC -lstdc++ -framework SystemConfiguration -framework AVFoundation -framework CoreLocation -lz -framework AudioToolbox -framework Foundation -framework UIKit -framework MediaPlayer -framework CoreGraphics -lTitanium -lsqlite3 -framework MessageUI -framework OpenGLES -framework QuartzCore -framework MapKit -framework AddressBook -framework AddressBookUI -framework CFNetwork -framework MobileCoreServices -lTiCore -licucore -lxml2 -o /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Persistence0#
+
+CPhaseScriptExecution "Run Script" /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+s291110073.018149
+e291110073.061978
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+lSLF07#2@36"Run custom shell script 'Run Script'291110073#291110073#0(0"0(0#0#0"4301231320#17830"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER kevin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build    setenv BUILD_ROOT /Users/kevin/dev/appc/Persistence/build/iphone/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504    setenv CCHROOT /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app    setenv CODE_SIGN_ENTITLEMENTS Resources/Entitlements.plist    setenv CODE_SIGN_IDENTITY "Don't Code Sign"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Persistence.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Persistence.dst    setenv DWARF_DSYM_FILE_NAME Persistence.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Persistence.app/Executables    setenv EXECUTABLE_FOLDER_PATH Persistence.app    setenv EXECUTABLE_NAME Persistence    setenv EXECUTABLE_PATH Persistence.app/Persistence    setenv FILE_LIST /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Persistence.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Persistence.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Persistence_Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "__LOG__ID__=ef78a2da-817a-47ba-8b32-3a21a3745224 DEPLOYTYPE=development DEBUG=1"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30000"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Persistence.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/Persistence.dst/Users/kevin/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER kevin    setenv INSTALL_PATH /Users/kevin/Applications    setenv INSTALL_ROOT /tmp/Persistence.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Persistence.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator\"  \"/Users/kevin/dev/appc/Persistence/build/iphone\" Resources"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal/i386/Persistence.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Objects-normal    setenv OBJROOT /Users/kevin/dev/appc/Persistence/build/iphone/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework UIKit -ObjC -lstdc++"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Persistence.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/PkgInfo    setenv PKGINFO_PATH Persistence.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Persistence.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Persistence.app/PrivateHeaders    setenv PRODUCT_NAME Persistence    setenv PRODUCT_SETTINGS_PATH /Users/kevin/dev/appc/Persistence/build/iphone/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Persistence    setenv PROJECT_DERIVED_FILE_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/DerivedSources    setenv PROJECT_DIR /Users/kevin/dev/appc/Persistence/build/iphone    setenv PROJECT_FILE_PATH /Users/kevin/dev/appc/Persistence/build/iphone/Persistence.xcodeproj    setenv PROJECT_NAME Persistence    setenv PROJECT_TEMP_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build    setenv PUBLIC_HEADERS_FOLDER_PATH Persistence.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Persistence.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk    setenv SDK_NAME iphonesimulator3.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Persistence.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Persistence.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/kevin/dev/appc/Persistence/build/iphone    setenv SRCROOT /Users/kevin/dev/appc/Persistence/build/iphone    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/SymbolRepositories    setenv SYMROOT /Users/kevin/dev/appc/Persistence/build/iphone/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME Persistence    setenv TARGET_BUILD_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator    setenv TARGET_NAME Persistence    setenv TARGET_TEMP_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build    setenv TEMP_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build    setenv TEMP_FILES_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build    setenv TEMP_FILE_DIR /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build    setenv TEMP_ROOT /Users/kevin/dev/appc/Persistence/build/iphone/build    setenv UID 504    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Persistence.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER kevin    setenv USER_APPS_DIR /Users/kevin/Applications    setenv USER_LIBRARY_DIR /Users/kevin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Persistence.app/version.plist    setenv VERSION_INFO_BUILDER kevin    setenv VERSION_INFO_FILE Persistence_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Persistence  PROJECT:Persistence-\""    setenv WEB_SRC_ROOT /Users/kevin/dev/appc/Persistence/build/iphone/tmp    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Persistence.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    setenv a b    /bin/sh -c /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Script-B4EA72B50FBC96AA005AA7FB.sh0#
+
+CProcessInfoPlistFile /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Info.plist Info.plist
+s291110072.991154
+e291110073.017968
+r1
+xProcessInfoPlistFile
+x/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist291110073#291110073#0(0"0(0#0#57"/Users/kevin/dev/appc/Persistence/build/iphone/Info.plist28429470871519336#503"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app/Info.plist0#
+
+CProcessPCH /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Persistence_Prefix-dcrrlzefqhlyxpcnhqnbohebfhmg/Persistence_Prefix.pch.gch Persistence_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s291110074.724434
+e291110075.398681
+r1
+xProcessPCH
+x/var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Persistence_Prefix-dcrrlzefqhlyxpcnhqnbohebfhmg/Persistence_Prefix.pch.gch
+xPersistence_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile Persistence_Prefix.pch291110074#291110075#0(0"0(0#0#69"/Users/kevin/dev/appc/Persistence/build/iphone/Persistence_Prefix.pch4301231320#1991"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__LOG__ID__=ef78a2da-817a-47ba-8b32-3a21a3745224 -DDEPLOYTYPE=development -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-generated-files.hmap -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-own-target-headers.hmap -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-all-target-headers.hmap -iquote /Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/Persistence-project-headers.hmap -F/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/include -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/DerivedSources/i386 -I/Users/kevin/dev/appc/Persistence/build/iphone/build/Persistence.build/Debug-iphonesimulator/Persistence.build/DerivedSources -c /Users/kevin/dev/appc/Persistence/build/iphone/Persistence_Prefix.pch -o /var/folders/dD/dDdB6Le1EsKsPKy+xlRvpU+++TU/-Caches-/com.apple.Xcode.504/SharedPrecompiledHeaders/Persistence_Prefix-dcrrlzefqhlyxpcnhqnbohebfhmg/Persistence_Prefix.pch.gch0#
+
+CTouch /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app
+s291110095.300216
+e291110095.336437
+r1
+xTouch
+x/Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app
+lSLF07#2@96"Touch /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app291110095#291110095#0(0"0(0#0#0"4301231320#298"    cd /Users/kevin/dev/appc/Persistence/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kevin/dev/appc/Persistence/build/iphone/build/Debug-iphonesimulator/Persistence.app0#
+
