@@ -1,6 +1,7 @@
 var win = Titanium.UI.currentWindow;
 win.layout = 'vertical';
 
+// PLEASE NOTE - resourcesDirectory is read-only on the device - use applicationDataDirectory for writes
 var f = Titanium.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory, 'test.json');
 var resources = JSON.parse(f.read().text);
 
@@ -43,6 +44,7 @@ var b1 = Titanium.UI.createButton({
 	top:10
 });
 b1.addEventListener("click", function(e) {
+  // WARNING - resourcesDirectory is not writeable on the device - use applicationDataDirectory instead
   f.write(JSON.stringify(resources));
 });
 win.add(b1);
