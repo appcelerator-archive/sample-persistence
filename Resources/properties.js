@@ -1,10 +1,10 @@
 var win = Titanium.UI.currentWindow;
 win.layout = 'vertical';
 
-var foo = Titanium.App.Properties.getString("foo");
+var fieldValue = Titanium.App.Properties.getString("fieldValue");
 
 var tf1 = Titanium.UI.createTextField({
-	value:foo,
+	value:fieldValue,
 	width:250,
 	height:40,
 	top:10,
@@ -12,10 +12,12 @@ var tf1 = Titanium.UI.createTextField({
 	autocorrect:false
 });
 tf1.addEventListener('return', function() {
+	// hide the keyboard
 	tf1.blur();
 });
 tf1.addEventListener('change', function(e) {
-  Titanium.App.Properties.setString("foo",e.value);
+	// save the text field's value 
+	Titanium.App.Properties.setString("fieldValue",e.value);
 });
 
 win.add(tf1);

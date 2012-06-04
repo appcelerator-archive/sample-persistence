@@ -21,9 +21,10 @@ var tab1 = Titanium.UI.createTab({
 // File system persistence
 //
 var win2 = Titanium.UI.createWindow({  
-  url:'filesystem.js',
-    title:'Filesystem',
-    backgroundColor:'#fff'
+	url:'filesystem.js',
+	layout: 'vertical',
+	title:'Filesystem',
+	backgroundColor:'#fff'
 });
 var tab2 = Titanium.UI.createTab({  
     title:'Filesystem',
