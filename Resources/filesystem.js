@@ -1,8 +1,14 @@
 var win = Titanium.UI.currentWindow;
 win.layout = 'vertical';
 
-// PLEASE NOTE - resourcesDirectory is read-only on the device - use applicationDataDirectory for writes
-var f = Titanium.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory, 'test.json');
+if(Titanium.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory, 'test.json').exists()) {
+	// if file exists in applicationDataDirectory, use it
+	var f = Titanium.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory, 'test.json');
+} else {
+	// otherwise, open the 'stock' version from resourcesDirectory
+	var f = Titanium.Filesystem.getFile(Titanium.Filesystem.resourcesDirectory, 'test.json');
+}
+
 var resources = JSON.parse(f.read().text);
 
 var tf1 = Titanium.UI.createTextField({
@@ -17,7 +23,7 @@ tf1.addEventListener('return', function() {
 	tf1.blur();
 });
 tf1.addEventListener('change', function(e) {
-  resources.en_us.hello = e.value;
+	resources.en_us.hello = e.value;
 });
 win.add(tf1);
 
@@ -44,7 +50,9 @@ var b1 = Titanium.UI.createButton({
 	top:10
 });
 b1.addEventListener("click", function(e) {
-  // WARNING - resourcesDirectory is not writeable on the device - use applicationDataDirectory instead
-  f.write(JSON.stringify(resources));
+	tf1.blur();
+	tf2.blur();
+	f = Titanium.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory, 'test.json');
+	f.write(JSON.stringify(resources));
 });
 win.add(b1);

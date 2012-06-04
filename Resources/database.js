@@ -1,7 +1,7 @@
 var win = Titanium.UI.currentWindow;
 var currentNote = '';
 var db = Titanium.Database.open('todos');
-db.execute('CREATE TABLE IF NOT EXISTS todos (id INTEGER PRIMARY KEY, todo TEXT)');
+db.execute('CREATE TABLE IF NOT EXISTS todos (id INTEGER PRIMARY KEY AUTOINCREMENT, todo TEXT)');
 
 //create data entry view
 var entryView = Ti.UI.createView({
@@ -16,14 +16,14 @@ var controlsView = Ti.UI.createView({
   height:'auto'
 });
 
-var b1 = Titanium.UI.createButton({
+var saveButton = Titanium.UI.createButton({
 	title:'Save',
 	width:60,
 	height:35,
 	right:0,
 	enabled:false
 });
-controlsView.add(b1);
+controlsView.add(saveButton);
 
 var tf1 = Titanium.UI.createTextField({
 	width:200,
@@ -39,10 +39,10 @@ tf1.addEventListener('return', function() {
 tf1.addEventListener("change", function(e) {
   currentNote = e.value;
   if (currentNote == '') {
-    b1.enabled = false;
+    saveButton.enabled = false;
   }
   else {
-    b1.enabled = true;
+    saveButton.enabled = true;
   }
 });
 controlsView.add(tf1);
@@ -63,6 +63,7 @@ while (rows.isValidRow()) {
 	rows.next();
 }
 rows.close();
+db.close();
 
 // create table view
 var tableview = Titanium.UI.createTableView({
@@ -79,49 +80,55 @@ tableview.addEventListener('click', function(e) {
 	}).show();
 });
 
-// add delete event listener
-tableview.addEventListener('delete',function(e) {
-  db.execute("DELETE FROM todos WHERE id = ?", e.rowData.id);
-});
-
 // add table view to the window
 Titanium.UI.currentWindow.add(tableview);
 
 //Add event listener for save button
-b1.addEventListener("click", function(e) {
-  if (b1.enabled) {
+saveButton.addEventListener("click", function(e) {
+  if (saveButton.enabled) {
+	var db = Titanium.Database.open('todos');
     db.execute('INSERT INTO todos (todo) VALUES(?)',currentNote);
-    var last = db.execute("SELECT * FROM todos ORDER BY id DESC LIMIT 1");
+    var last = db.lastInsertRowId; // careful, it's not lastInsertRowID!
     tableview.appendRow({
-      title:last.fieldByName('todo'),
-      id:last.fieldByName('id')
+      title:currentNote,
+      id:last
     });
-    last.close();
     currentNote = '';
     tf1.value = '';
     tf1.blur();
-    b1.enabled = false;
+    saveButton.enabled = false;
+    db.close();
   }
 });
 
-//
-//  create edit/cancel buttons for nav bar
-//
-var edit = Titanium.UI.createButton({
-	title:'Edit'
-});
-var cancel = Titanium.UI.createButton({
-	title:'Cancel',
-	style:Titanium.UI.iPhone.SystemButtonStyle.DONE
-});
+if(Ti.Platform.osname === 'iphone' || Ti.Platform.osname === 'ipad') {
+	//
+	//	iOS only feature: editable table
+	//  create edit/cancel buttons for nav bar
+	//
+	var editButton = Titanium.UI.createButton({
+		title:'Edit'
+	});
+	var cancelButton = Titanium.UI.createButton({
+		title:'Cancel',
+		style:Titanium.UI.iPhone.SystemButtonStyle.DONE
+	});
+	
+	editButton.addEventListener('click', function() {
+		win.setRightNavButton(cancelButton);
+		tableview.editing = true;
+	});
+	cancelButton.addEventListener('click', function() {
+		win.setRightNavButton(editButton);
+		tableview.editing = false;
+	});
 
-edit.addEventListener('click', function() {
-	win.setRightNavButton(cancel);
-	tableview.editing = true;
-});
-cancel.addEventListener('click', function() {
-	win.setRightNavButton(edit);
-	tableview.editing = false;
-});
-
-win.setRightNavButton(edit);
+	// add delete event listener
+	tableview.addEventListener('delete',function(e) {
+		var db = Titanium.Database.open('todos');
+		db.execute("DELETE FROM todos WHERE id = ?", e.rowData.id);
+		db.close();
+	});
+	
+	win.setRightNavButton(editButton);	
+}
