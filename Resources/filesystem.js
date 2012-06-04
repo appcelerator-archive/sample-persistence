@@ -1,5 +1,4 @@
 var win = Titanium.UI.currentWindow;
-win.layout = 'vertical';
 
 if(Titanium.Filesystem.getFile(Titanium.Filesystem.applicationDataDirectory, 'test.json').exists()) {
 	// if file exists in applicationDataDirectory, use it
